@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('DB_NAME'),
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': os.environ.get('DB_HOST'),
-        'PORT': os.environ.get('DB_PORT'),
+        'NAME': os.environ.get('frager_db'),
+        'USER': os.environ.get('SArchMaster'),
+        'PASSWORD': os.environ.get('S4rch3a5te++'),
+        'HOST': os.environ.get('sarchmysqlinstance.cjuj36p5w1gf.us-east-1.rds.amazonaws.com'),
+        'PORT': os.environ.get('3306'),
     }
 }
 
