@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': os.environ.get('frager_db'),
         'USER': os.environ.get('SArchMaster'),
         'PASSWORD': os.environ.get('S4rch3a5te++'),
-        'HOST': os.environ.get('sarchmysqlinstance.cjuj36p5w1gf.us-east-1.rds.amazonaws.com'),
+        'HOST': os.environ.get('sarchmysqlinstance.cmdljeqfbpqp.us-east-1.rds.amazonaws.com'),
         'PORT': os.environ.get('3306'),
     }
 }
